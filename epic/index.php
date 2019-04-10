@@ -9,4 +9,13 @@
 		<h1>
 			Data Design Project
 		</h1>
+		<div>
+			<p><a href="Persona.php">Persona</a></p>
+		</div>
+		<div>
+			<p><a href="Userstory.php">User Story</a></p>
+		</div>
+		<div>
+			<p><a href="Usecaseinteractionflow.php">User Case</a></p>
+		</div>
 	</html>

@@ -41,8 +41,5 @@
 			</ul>
 		</div>
 		<br>
-		<a href="Userstory.php">User Story</a>
-		<div>
-			<a href="Usecaseinteractionflow.php">User Case</a>
-		</div>
+		<a href="index.php">Back to Index</a>
 	</html>

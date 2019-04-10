@@ -42,9 +42,6 @@
 		</div>
 		<div><p><strong>Frequency of Use:</strong> 6 times a day</p></div>
 		<div>
-			<a href="Persona.php">Back to Persona</a>
-		</div>
-		<div>
-			<a href="Userstory.php">Back to User Case</a>
+			<a href="index.php">Back to Index</a>
 		</div>
 	</html>

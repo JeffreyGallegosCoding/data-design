@@ -15,9 +15,6 @@
 			</p>
 		</div>
 		<b>
-			<a href="Persona.php">Back to Persona</a>
+			<a href="index.php">Back to Index</a>
 		</b>
-		<div>
-			<a href="Usecaseinteractionflow.php">User Case</a>
-		</div>
 	</html>

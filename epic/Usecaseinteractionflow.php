@@ -3,11 +3,11 @@
 		<head>
 			<meta charset="UTF-8">
 			<title>
-				User Case
+				Use Case
 			</title>
 		</head>
 		<h1>
-			User Case
+			Use Case
 		</h1>
 		<div>
 			<p><strong>Title:</strong> Video game release dates and availability.</p>
@@ -17,8 +17,8 @@
 			and availability of a desired video game that he has on reserve.</p>
 		</div>
 		<div>
-			<p><strong>Name of user & their role:</strong> Ferdinand. Passionate about video games and wants to know availability
-			of video games he has on reserve at Game Stop stores.</p>
+			<p><strong>Name of user & their role:</strong> Ferdinand is more of a common user. Although he goes onto the
+			Game Stop website often he does not access many other websites. He mainly only accesses the few that he likes.</p>
 		</div>
 		<div>
 			<p><strong>Usage Preconditions:</strong> Access to their Game Stop account and their reservations online.</p>
@@ -33,7 +33,7 @@
 		<div>
 			<ul>
 				<li>Ferdinand logs onto GameStop official website under their specific email or rewards card number and password.</li>
-				<li>He goes to account information tab under orders.</li>
+				<li>He goes to the account information tab under orders.</li>
 				<li>Under the orders list, click on the desired game for information on the order.</li>
 				<li>Under the game title click the link to Release.</li>
 				<li>Release will show him when, where, and the time that the store he has the game reserved at will

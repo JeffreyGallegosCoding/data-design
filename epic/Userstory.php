@@ -9,9 +9,8 @@
 		<h1>User Story</h1>
 		<div>
 			<p>
-			As a devoted customer and lover of video games, Ferdinand would like to have access to more information on the
-				release date, his reservations for a future game title, and if a particular store has the video game
-				he desires.
+			I really enjoy checking out all of the latest games on GameStop's website but I wish there
+				was an easier way to view my reservations on my game orders and to know when they are coming out.
 			</p>
 		</div>
 		<b>

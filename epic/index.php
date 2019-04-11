@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 	<html lang="en">
 		<head>
 			<meta charset="UTF-8">
@@ -16,6 +16,6 @@
 			<p><a href="Userstory.php">User Story</a></p>
 		</div>
 		<div>
-			<p><a href="Usecaseinteractionflow.php">User Case</a></p>
+			<p><a href="Usecaseinteractionflow.php">Use Case</a></p>
 		</div>
 	</html>

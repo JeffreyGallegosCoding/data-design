@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 	<html lang="en">
 		<head>
 			<meta charset="UTF-8">
@@ -23,21 +23,22 @@
 				<li><strong>Occupation:</strong> Paper Boy</li>
 				<li><strong>Primary System:</strong> Playstation 4 and Nintendo Switch</li>
 				<li><strong>Favorite Videogame:</strong> Legend of Zelda</li>
-				<li><strong>Desired Features</strong>
+
+				<li><strong>Desired Features</strong></li>
 				<ul>
 					<li>Would like to know the date on which new games are released.</li>
 					<li>Would like to know if any local stores carry a particular game so that he would not have to order it.</li>
 					<li>Would like to know the value that he could get for trading games in for either money or towards another game.</li>
-					<li>Would like to know the status of his games he has on reservation.</li>
+					<li>Would like to be able to access game order information from the shopping cart on the GameStop website before ordering.</li>
 				</ul>
-				</li>
-				<li><strong>Issues</strong>
+
+				<li><strong>Issues</strong></li>
 				<ul>
 					<li>Does not know if a particular store has the game title that he desires.</li>
 					<li>Would like to know the release date for video games.</li>
-					<li>Would like to be able to check the status of video games he has on reserve online.</li>
+					<li>Would like to be able to access order information that he has in the GameStop shopping
+						cart before ordering.</li>
 				</ul>
-				</li>
 			</ul>
 		</div>
 		<br>

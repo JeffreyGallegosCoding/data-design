@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 	<html lang="en">
 		<head>
 			<meta charset="UTF-8">
@@ -10,34 +10,27 @@
 			Use Case
 		</h1>
 		<div>
-			<p><strong>Title:</strong> Video game release dates and availability.</p>
+			<p><strong>Title:</strong> Customize orders in cart before confirming order.</p>
 		</div>
 		<div>
-			<p><strong>Description:</strong> Ferdinand would like to have access to information pertaining to the release date
-			and availability of a desired video game that he has on reserve.</p>
+			<p><strong>Description:</strong> Ferdinand would like to be able to access order information from his account's
+			shopping cart on the GameStop website.</p>
 		</div>
 		<div>
-			<p><strong>Name of user & their role:</strong> Ferdinand is more of a common user. Although he goes onto the
-			Game Stop website often he does not access many other websites. He mainly only accesses the few that he likes.</p>
+			<p><strong>Name of user & their role:</strong> Ferdinand. As a common user I go onto the Game Stop website often
+				but I do not know much about other parts of the web. I mainly only accesses the few websites that I like.</p>
 		</div>
 		<div>
-			<p><strong>Usage Preconditions:</strong> Access to their Game Stop account and their reservations online.</p>
+			<p><strong>Usage Preconditions:</strong> Access and log in to Game Stop account with email and password.</p>
 		</div>
 		<div>
-			<p><strong>Usage Postconditions:</strong> Game reservations can be seen under account orders with each of their
-			release dates.</p>
-		</div>
-		<div>
-			<p><strong>Interaction Flow:</strong></p>
-		</div>
-		<div>
+			<p><strong>Usage Postconditions:</strong> Access to product and order information in shopping cart.
 			<ul>
-				<li>Ferdinand logs onto GameStop official website under their specific email or rewards card number and password.</li>
-				<li>He goes to the account information tab under orders.</li>
-				<li>Under the orders list, click on the desired game for information on the order.</li>
-				<li>Under the game title click the link to Release.</li>
-				<li>Release will show him when, where, and the time that the store he has the game reserved at will
-					have the game available for pickup.</li>
+				<li>Once you are logged in, click the cart button just left to your account.</li>
+				<li>In the cart there will be a list of items that you have on your cart list. Select the title you wish to access.</li>
+				<li>Under the title you can access and edit order information such as the shipping address, product details,
+					quantity, protection plan, and the game's availability.</li>
+				<li>Once all of the information is to you liking, you may continue to the checkout options at the base of the page.</li>
 			</ul>
 		</div>
 		<div><p><strong>Frequency of Use:</strong> 6 times a day</p></div>

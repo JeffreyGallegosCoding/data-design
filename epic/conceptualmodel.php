@@ -24,9 +24,12 @@
 				<li>cartShippingOption</li>
 			</ul>
 		</div>
-		<div>cartProduct</div>
-
-		<div><strong><em>Product</em></strong></div>
+		<div><strong>Cart Product</strong></div>
+			<ul>
+				<li>cartProductCartID</li>
+				<li>cartProductProductID</li>
+			</ul>
+		<div><strong>Product</strong></div>
 		<div>
 			<ul>
 				<li>productID (Primary Key)</li>

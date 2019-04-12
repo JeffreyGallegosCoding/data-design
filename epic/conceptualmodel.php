@@ -9,28 +9,38 @@
 
 		<h1>Conceptual Model</h1>
 		<div><strong><em>Entities and Attributes</em></strong></div>
-		<div><strong>Your Account</strong></div>
+		<div><strong>Account</strong></div>
 		<div>
 			<ul>
-				<li>accountDetails</li>
-				<li>findPowerUpRewards</li>
-				<li>orderHistory</li>
-				<li>pickUpAtStoreOptionID</li>
+				<li>accountID (Primary Key)</li>
+				<li>accountEmail</li>
+				<li>accountPassword</li>
 			</ul>
 		</div>
-		<div><strong>Game Title</strong></div>
+		<div><strong>Cart</strong></div>
 		<div>
 			<ul>
-				<li></li>
+				<li>cartID (Primary Key)</li>
+				<li>cartShippingOption</li>
 			</ul>
 		</div>
-		<div><strong><em>Relations</em></strong></div>
+		<div>cartProduct</div>
+
+		<div><strong><em>Product</em></strong></div>
 		<div>
 			<ul>
-				<li>One game order can only belong to one user. (1 to 1)</li>
-				<li>One user can order many games. (1 to m)</li>
-				<li>One game title can be ordered by many users. (1 to n)</li>
-				<li>Many games can be on many user orders. (m to n)</li>
+				<li>productID (Primary Key)</li>
+				<li>productPrice</li>
+				<li>productDetails</li>
+				<li>productQuantity</li>
+				<li>productProtectionPlan</li>
 			</ul>
+			<div><strong><em>Relations</em></strong></div>
+			<div>
+				<ul>
+					<li>One cart may only belong to one account.</li>
+					<li>Many games can belong to many carts.</li>
+				</ul>
+			</div>
 		</div>
 	</html>

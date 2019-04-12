@@ -27,10 +27,14 @@
 			<p><strong>Usage Postconditions:</strong> Access to product and order information in shopping cart.
 			<ul>
 				<li>Once you are logged in, click the cart button just left to your account.</li>
-				<li>In the cart there will be a list of items that you have on your cart list. Select the title you wish to access.</li>
-				<li>Under the title you can access and edit order information such as the shipping address, product details,
-					quantity, protection plan, and the game's availability.</li>
-				<li>Once all of the information is to you liking, you may continue to the checkout options at the base of the page.</li>
+				<li>The server returns with the GameStop checkout page.</li>
+				<li>This will bring up your cart menu and list all of the items that you have in your cart.</li>
+				<li>Under your desired game title you can access the product description, also you may edit the shipping
+					address option, quantity, warranty preferences, and power up rewards options.</li>
+				<li>If you would like to access the specific product information select the game title.</li>
+				<li>The server returns with the specific game title page under your desired gaming platform.</li>
+				<li>The page displays the game title, release date, a pick up at store option, product details, product
+				description, and videos and screenshots of the game.</li>
 			</ul>
 		</div>
 		<div><p><strong>Frequency of Use:</strong> 6 times a day</p></div>

@@ -26,7 +26,7 @@
 		<div>
 			<p><strong>Usage Postconditions:</strong> Access to product and order information in shopping cart.
 			<ul>
-				<li>Once you are logged in, click the cart button just left to your account.</li>
+				<li>Once you are logged in, click the cart button just right to your account.</li>
 				<li>The server returns with the GameStop checkout page.</li>
 				<li>This will bring up your cart menu and list all of the items that you have in your cart.</li>
 				<li>Under your desired game title you can access the product description, also you may edit the shipping

@@ -14,7 +14,7 @@
 			<ul>
 				<li>accountID (Primary Key)</li>
 				<li>accountEmail</li>
-				<li>accountPassword</li>
+				<li>accountHash (for account password)</li>
 			</ul>
 		</div>
 		<div><strong>Cart</strong></div>
@@ -22,12 +22,13 @@
 			<ul>
 				<li>cartID (Primary Key)</li>
 				<li>cartShippingOption</li>
+				<li>cartQuantity</li>
 			</ul>
 		</div>
 		<div><strong>Cart Product</strong></div>
 			<ul>
-				<li>cartProductCartID</li>
-				<li>cartProductProductID</li>
+				<li>cartProductCartID (foreign key)</li>
+				<li>cartProductProductID (foreign key)</li>
 			</ul>
 		<div><strong>Product</strong></div>
 		<div>
@@ -35,9 +36,9 @@
 				<li>productID (Primary Key)</li>
 				<li>productPrice</li>
 				<li>productDetails</li>
-				<li>productQuantity</li>
 				<li>productProtectionPlan</li>
 			</ul>
+		</div>
 			<div><strong><em>Relations</em></strong></div>
 			<div>
 				<ul>
@@ -45,5 +46,8 @@
 					<li>Many games can belong to many carts.</li>
 				</ul>
 			</div>
-		</div>
+	<div><img src="ERD%20for%20Data%20Design%20Project%20V2.jpg"></div>
+	<div>
+		<a href="index.php">Back to Index</a>
+	</div>
 	</html>

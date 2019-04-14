@@ -18,4 +18,7 @@
 		<div>
 			<p><a href="Usecaseinteractionflow.php">Use Case</a></p>
 		</div>
+	<div>
+		<p><a href="conceptualmodel.php">Conceptual Model</a></p>
+	</div>
 	</html>

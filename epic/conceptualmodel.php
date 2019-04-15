@@ -46,7 +46,7 @@
 					<li>Many games can belong to many carts.</li>
 				</ul>
 			</div>
-	<div><img src="ERD%20for%20Data%20Design%20Project%20V2.jpg"></div>
+	<div><img src="ERD%20for%20Data%20Design%20Project%20V2%20Edit.jpg"></div>
 	<div>
 		<a href="index.php">Back to Index</a>
 	</div>

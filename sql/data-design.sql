@@ -1,4 +1,4 @@
-drop table if exists `cartProduct`;
+drop table if exists cartProduct;
 drop table if exists cart;
 drop table if exists account;
 drop table if exists product;
@@ -12,6 +12,13 @@ create table account(
 	primary key (accountId)
 );
 
+create table product(
+	productId binary(16) not null,
+	productPrice varchar(128) not null,
+	productDetails varchar(128) not null,
+	primary key (productId)
+);
+
 create table cart(
 	cartId binary(16) not null,
 	cartAccountId binary(16) not null,
@@ -22,14 +29,7 @@ create table cart(
 	primary key (cartId)
 );
 
-create table product(
-	productId binary(16) not null,
-	productPrice varchar(128) not null,
-	productDetails varchar(128) not null,
-	primary key (productId)
-);
-
-create table `cartProduct`(
+create table cartProduct (
 	cartProductCartId binary(16) not null,
 	cartProductProductId binary(16) not null,
 	index (cartProductCartId),

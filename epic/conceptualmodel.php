@@ -12,7 +12,7 @@
 		<div><strong>Account</strong></div>
 		<div>
 			<ul>
-				<li>accountID (Primary Key)</li>
+				<li>accountId (Primary Key)</li>
 				<li>accountEmail</li>
 				<li>accountHash (for account password)</li>
 			</ul>
@@ -20,20 +20,20 @@
 		<div><strong>Cart</strong></div>
 		<div>
 			<ul>
-				<li>cartID (Primary Key)</li>
+				<li>cartId (Primary Key)</li>
 				<li>cartShippingOption</li>
 				<li>cartQuantity</li>
 			</ul>
 		</div>
 		<div><strong>Cart Product</strong></div>
 			<ul>
-				<li>cartProductCartID (foreign key)</li>
-				<li>cartProductProductID (foreign key)</li>
+				<li>cartProductCartId (foreign key)</li>
+				<li>cartProductProductId (foreign key)</li>
 			</ul>
 		<div><strong>Product</strong></div>
 		<div>
 			<ul>
-				<li>productID (Primary Key)</li>
+				<li>productId (Primary Key)</li>
 				<li>productPrice</li>
 				<li>productDetails</li>
 				<li>productProtectionPlan</li>

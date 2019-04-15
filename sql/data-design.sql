@@ -1,6 +1,6 @@
-drop table if exists account;
 drop table if exists `cartProduct`;
 drop table if exists cart;
+drop table if exists account;
 drop table if exists product;
 
 
@@ -18,7 +18,7 @@ create table cart(
 	cartShippingOption varchar(128) not null,
 	cartQuantity varchar(128) not null,
 	index (cartAccountId),
-	foreign key (cartAccountId) references  account (accountId),
+	foreign key (cartAccountId) references account(accountId),
 	primary key (cartId)
 );
 
@@ -26,7 +26,6 @@ create table product(
 	productId binary(16) not null,
 	productPrice varchar(128) not null,
 	productDetails varchar(128) not null,
-	productProtectionPlan varchar(128) not null,
 	primary key (productId)
 );
 

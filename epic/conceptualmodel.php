@@ -21,8 +21,9 @@
 		<div>
 			<ul>
 				<li>cartId (Primary Key)</li>
+				<li>cartAccountId (Foreign Key)</li>
 				<li>cartShippingOption</li>
-				<li>cartQuantity</li>
+				<li>cartTotalQuantity</li>
 			</ul>
 		</div>
 		<div><strong>Cart Product</strong></div>

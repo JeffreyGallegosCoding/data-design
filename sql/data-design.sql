@@ -23,7 +23,7 @@ create table cart(
 	cartId binary(16) not null,
 	cartAccountId binary(16) not null,
 	cartShippingOption varchar(128) not null,
-	cartQuantity varchar(128) not null,
+	cartQuantity tinyint not null,
 	index (cartAccountId),
 	foreign key (cartAccountId) references account(accountId),
 	primary key (cartId)
@@ -36,6 +36,6 @@ create table cartProduct (
 	index (cartProductProductId),
 	foreign key (cartProductProductId) references product (productId),
 	foreign key (cartProductCartId) references cart (cartId),
-	primary key (cartProductCartId)
+	primary key (cartProductCartId, cartProductProductId)
 );
 

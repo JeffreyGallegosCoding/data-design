@@ -22,7 +22,7 @@ create table product(
 create table cart(
 	cartId binary(16) not null,
 	cartAccountId binary(16) not null,
-	cartShippingOption varchar(128) not null,
+	cartShippingOption tinyInt not null,
 	cartQuantity tinyint not null,
 	index (cartAccountId),
 	foreign key (cartAccountId) references account(accountId),

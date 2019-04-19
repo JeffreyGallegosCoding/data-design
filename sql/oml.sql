@@ -15,7 +15,7 @@ select productId, productPrice, productDetails from product;
 
 update product set productPrice = "30" where productPrice = "20";
 
-delete from account where accountId = unhex("1a6e8ac0d8a7402580e6ddadb18fc7f1");
+delete from cartProduct where cartProductCartId = unhex("7e36a025cdc7493fa4bea15015ebc1fe");
 
 select cartId, cartAccountId, cartShippingOption, cartQuantity from cart
 where cartId = unhex ("7e36a025cdc7493fa4bea15015ebc1fe");
@@ -25,6 +25,5 @@ from account
 inner join cart on account.accountId = cart.cartAccountId
 where account.accountEmail = "gamer@george.com";
 
-/*look more into count function*/
-select tweetId, count (*) from tweet;
+select likeTweetId, count (*) from tweetId;
 

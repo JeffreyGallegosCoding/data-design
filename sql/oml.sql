@@ -25,5 +25,9 @@ from account
 inner join cart on account.accountId = cart.cartAccountId
 where account.accountEmail = "gamer@george.com";
 
-select count(tweetProfileId) from tweet where tweetId = unhex("1ab76fb5-655a-495b-bc0b-611952a82488");
+select count(likeProfileId) from `like` where tweetId = unhex("1ab76fb5655a495bbc0b611952a82488");
+
+
+
+
 
